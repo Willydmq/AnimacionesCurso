@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "+pejqqafjsVoEFrt3vFy+AGzv63Rd9IUTRq7+V1TlODnerpsu+4YzM/IM30ExJw8PYjo7TiuEHH/B/1URgrX0g==",
+  "success": true,
+  "projectFilePath": "E:\\Proyectos Xamarin\\Desafios\\Hijos\\AnimacionesCurso\\AnimacionesCurso\\AnimacionesCurso.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Codigo 369\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Codigo 369\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Codigo 369\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Codigo 369\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Codigo 369\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
