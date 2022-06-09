@@ -14,6 +14,7 @@ namespace AnimacionesCurso.VistaModelo
     {
     #region VARIABLES
     bool _estadoRotar;
+    bool _estadoSacudir;
     #endregion
     #region CONSTRUCTOR
     public VManimaciones(INavigation navigation)
@@ -27,9 +28,19 @@ namespace AnimacionesCurso.VistaModelo
       get { return _estadoRotar; }
       set { SetValue(ref _estadoRotar,value); }
       }
+    public bool EstadoSacudir
+      {
+      get { return _estadoSacudir; }
+      set { SetValue(ref _estadoSacudir,value); }
+      }
     #endregion
     #region PROCESOS
-   private void Rotarinfinito()
+    private void Sacudir()
+      {
+      EstadoSacudir=true;
+      EstadoSacudir=false;
+      }
+    private void Rotarinfinito()
       {
       EstadoRotar=true;
       }
@@ -40,8 +51,11 @@ namespace AnimacionesCurso.VistaModelo
       }
     #endregion
     #region COMANDOS
+
     public ICommand RotarInfinitocommand => new Command(Rotarinfinito);
     public ICommand Detenercommand => new Command(Detenerrotar);
+    public ICommand Sacudircommand => new Command(Sacudir);
+
     #endregion
     }
   }

@@ -43,6 +43,16 @@
                         <triggers:Rotacioninfinita estado="False"/>
                     </MultiTrigger.ExitActions>
                 </MultiTrigger>
+                <MultiTrigger TargetType="Frame">
+                    <MultiTrigger.Conditions>
+                        <BindingCondition Binding="{Binding EstadoSacudir}"
+                                          Value="true"/>
+                    </MultiTrigger.Conditions>
+                    <MultiTrigger.EnterActions>
+                        <triggers:Sacudir />
+                    </MultiTrigger.EnterActions>
+                    
+                </MultiTrigger>
             </Frame.Triggers>
         </Frame>
         <StackLayout Orientation="Horizontal"
@@ -85,6 +95,9 @@
             <Frame CornerRadius="10"
                    BackgroundColor="#B8A5FF">
                 <StackLayout Orientation="Horizontal">
+                    <Button Text="Sacudir"
+                            Style="{DynamicResource btn}"
+                            Command="{Binding Sacudircommand}" />
                     <Button Text="Rotacion infinita"
                             Style="{DynamicResource btn}"
                             Command="{Binding RotarInfinitocommand}"/>
