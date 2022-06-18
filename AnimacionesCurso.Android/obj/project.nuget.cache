@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "V/E+osv2XvQtKP1zfDqqnt9x0W0tYIINOytLY6YFys9eexUi+pHNbuYakNzTzbEKQ3ZkMhapOPee3xkQzhNJ9Q==",
+  "dgSpecHash": "LlMHv4ByK1DSaD7A34d3ljEd7ES69CBBO8aXLiyP9DZxZUipmYS7E36b9JwYyjxpRpLhDy0jSBMt3IiEmPenOA==",
   "success": true,
   "projectFilePath": "E:\\Proyectos Xamarin\\Desafios\\Hijos\\AnimacionesCurso\\AnimacionesCurso.Android\\AnimacionesCurso.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Codigo 369\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
+    "C:\\Users\\Codigo 369\\.nuget\\packages\\prism.forms\\8.1.97\\prism.forms.8.1.97.nupkg.sha512",
     "C:\\Users\\Codigo 369\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Codigo 369\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
     "C:\\Users\\Codigo 369\\.nuget\\packages\\xamarin.androidx.annotation\\1.2.0.1\\xamarin.androidx.annotation.1.2.0.1.nupkg.sha512",

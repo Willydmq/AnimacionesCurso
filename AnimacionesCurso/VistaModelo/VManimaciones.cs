@@ -15,6 +15,7 @@ namespace AnimacionesCurso.VistaModelo
     #region VARIABLES
     bool _estadoRotar;
     bool _estadoSacudir;
+    bool _estadoPalpitar;
     #endregion
     #region CONSTRUCTOR
     public VManimaciones(INavigation navigation)
@@ -23,6 +24,11 @@ namespace AnimacionesCurso.VistaModelo
       }
     #endregion
     #region OBJETOS
+    public bool EstadoPalpitar
+      {
+      get { return _estadoPalpitar; }
+      set { SetValue(ref _estadoPalpitar,value); }
+      }
     public bool EstadoRotar
       {
       get { return _estadoRotar; }
@@ -49,8 +55,19 @@ namespace AnimacionesCurso.VistaModelo
       {
       EstadoRotar=false;
       }
+    private void Palpitarinfinito()
+      {
+      EstadoPalpitar=true;
+      }
+
+    public void Detenerpalpitar()
+      {
+      EstadoPalpitar=false;
+      }
     #endregion
     #region COMANDOS
+    public ICommand Palpitarcommand => new Command(Palpitarinfinito);
+    public ICommand Detenerpalpitarcommand => new Command(Detenerpalpitar);
 
     public ICommand RotarInfinitocommand => new Command(Rotarinfinito);
     public ICommand Detenercommand => new Command(Detenerrotar);

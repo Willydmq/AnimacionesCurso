@@ -5,6 +5,8 @@ public class MonoPackageManager_Resources {
 		"AnimacionesCurso.Android.dll",
 		"AnimacionesCurso.dll",
 		"FormsViewGroup.dll",
+		"Prism.dll",
+		"Prism.Forms.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
 		"Xamarin.AndroidX.Annotation.Experimental.dll",

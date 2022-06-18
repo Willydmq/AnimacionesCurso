@@ -1,6 +1,7 @@
 ﻿using System;
 
 using AnimacionesCurso.Vistas;
+using AnimacionesCurso.Vistas.Vbehaviors;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -13,7 +14,7 @@ namespace AnimacionesCurso
       {
       InitializeComponent();
 
-      MainPage=new animaciones();
+      MainPage=new Ejercicio1();
       }
 
     protected override void OnStart()
